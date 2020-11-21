@@ -16,13 +16,15 @@ For Decryption:-
     --encryptedMsg  - Previously encrypted message
     --secret        - Secret key that used for encryption of message
 
-Ecryption Example:
+Ecryption Example:-
+
 node aes.js encode --msg="This is test message" --secret="this-is-secret-key"
 Output:
 { encryptedPkey: "ebf4fa607de6f42bce2e3ccf65121ddab677f631723b570913ebb92d5eab8bf9"}
 
 
-Decryption Example:
+Decryption Example:-
+
 node aes.js decode --encryptedMsg="ebf4fa607de6f42bce2e3ccf65121ddab677f631723b570913ebb92d5eab8bf9" --secret="this-is-secret-key"
 Output:
 { decryptedPkey: 'This is test message' }
