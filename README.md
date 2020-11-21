@@ -3,18 +3,19 @@ Javascript file of implementation of AES encryption.
 Simple Tool to Encode and Decode message or private-key using AES256 technique.
 
 Usage:
-
 For Encryption:-
 
     encode    - For Encryption
     --msg     - Message or Private that you want to Encrypt
     --secret  - Secret key to sign message with. Make sure only way to decrypt message is this key
 
+
 For Decryption:-
 
     decode          - For Decryption
     --encryptedMsg  - Previously encrypted message
     --secret        - Secret key that used for encryption of message
+
 
 
 Ecryption Example:-
